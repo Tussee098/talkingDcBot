@@ -23,7 +23,7 @@ Make sure you have Node.js
 7. **Customize Personality & Settings.**  
    - Modify `quiz_llama/answer.py` to adjust the bot's personality and settings.  
   
-8. **You're Ready to Go!**  
+8. **All done! (Hopefully 😅)**  
    - Your personal, quirky trivia master is now live. 🎉  
 
 ## Commands  
