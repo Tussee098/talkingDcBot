@@ -5,19 +5,25 @@ This is a Discord bot that lets you generate and answer trivia questions inside 
 ## Setup  
 
 To connect the bot, follow these steps:  
+Make sure you have Node.js
 
-1. **Download or Clone the Repository.**  
-2. **Set Up Your Keys.**  
+1. **Download or Clone the Repository.**
+2. **Install Dependencies.**
+   - Run npm install.
+4. **Install & Run Ollama Locally.**  
+   - The bot uses Ollama for AI-generated trivia. Follow the [Ollama installation guide](https://ollama.com/) to set it up.
+5. **Install FFmpeg.**  
+   - The bot uses FFmpeg for converting audiofiles. Follow the [FFmpeg installation guide](https://ffmpeg.org/) to set it up.
+6. **Set Up Your Keys.**  
    - Rename `KeysExample.json` to `keys.json` (note the lowercase "k").  
    - Open `keys.json` and add your API keys:  
      - **Discord Bot Token:** Create a bot in [Discord's Developer Portal](https://discord.com/developers), copy its token, and paste it into `bot_token`. Make sure to grant the necessary permissions.  
      - **ElevenLabs API Key:** Create an account on [ElevenLabs](https://elevenlabs.io/) and add your key for text-to-speech.  
-     - **AssemblyAI API Key:** Create an account on [AssemblyAI](https://www.assemblyai.com/) and add your key for speech-to-text.  
-3. **Customize Personality & Settings.**  
+     - **AssemblyAI API Key:** Create an account on [AssemblyAI](https://www.assemblyai.com/) and add your key for speech-to-text.
+7. **Customize Personality & Settings.**  
    - Modify `quiz_llama/answer.py` to adjust the bot's personality and settings.  
-4. **Install & Run Ollama Locally.**  
-   - The bot uses Ollama for AI-generated trivia. Follow the [Ollama installation guide](https://ollama.com/) to set it up.  
-5. **You're Ready to Go!**  
+  
+8. **You're Ready to Go!**  
    - Your personal, quirky trivia master is now live. 🎉  
 
 ## Commands  
